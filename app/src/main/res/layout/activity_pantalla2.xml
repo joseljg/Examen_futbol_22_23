@@ -6,4 +6,46 @@
     android:layout_height="match_parent"
     tools:context=".Pantalla2">
 
+<<<<<<< HEAD
+=======
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="28dp"
+        android:text="TextView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <RadioGroup
+        android:id="@+id/rg_socio"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="80dp"
+        android:layout_marginEnd="24dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <RadioButton
+            android:id="@+id/rb_socio_si"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:text="Soy socio"
+            android:textSize="16sp"
+            android:onClick="cambiar_opcion_socio"/>
+
+        <RadioButton
+            android:id="@+id/rb_socio_no"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="No soy socio"
+            android:textSize="16sp"
+            android:onClick="cambiar_opcion_socio"/>
+    </RadioGroup>
+>>>>>>> Initial commit
 </androidx.constraintlayout.widget.ConstraintLayout>

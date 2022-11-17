@@ -14,7 +14,7 @@ import android.widget.Spinner;
 public class MainActivity extends AppCompatActivity implements AdapterView.OnItemSelectedListener {
 
     public static final String EXTRA_CANTIDAD = "es.joseljg.examenfutbol2223.mainactivity.cantidad";
-    private static final String EXTRA_ZONA = "es.joseljg.examenfutbol2223.mainactivity.tipozona" ;
+    public static final String EXTRA_ZONA = "es.joseljg.examenfutbol2223.mainactivity.tipozona" ;
     private EditText edt_cantidad_pantalla1 = null;
     private Spinner sp_tipo_entrada_pantalla1 = null;
     private String tipo_zona = null;
