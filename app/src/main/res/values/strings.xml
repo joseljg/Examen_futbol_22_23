@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Examen Futbol 22 23</string>
+    <string name="texto_cantidad_hint">Cantidad de entradas (max 10)</string>
+    <string name="imagen_de_un_balon">imagen de un balon</string>
+    <string name="descripcion_del_spinner">descripcion del spinner</string>
+    <string name="siguiente">Siguiente</string>
+</resources>
