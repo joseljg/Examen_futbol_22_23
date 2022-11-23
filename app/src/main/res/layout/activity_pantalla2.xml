@@ -6,8 +6,6 @@
     android:layout_height="match_parent"
     tools:context=".Pantalla2">
 
-<<<<<<< HEAD
-=======
     <TextView
         android:id="@+id/textView"
         android:layout_width="wrap_content"
@@ -47,5 +45,5 @@
             android:textSize="16sp"
             android:onClick="cambiar_opcion_socio"/>
     </RadioGroup>
->>>>>>> Initial commit
+
 </androidx.constraintlayout.widget.ConstraintLayout>
